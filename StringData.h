@@ -3,8 +3,8 @@
 #include <vector>
 
 inline long long systemTimeNanoseconds() {
-  return std::chrono::duration_cast<std::chrono::milliseconds>(
-             std::chrono::time_point_cast<std::chrono::milliseconds>(
+  return std::chrono::duration_cast<std::chrono::nanoseconds>(
+             std::chrono::time_point_cast<std::chrono::nanoseconds>(
                  std::chrono::system_clock::now())
                  .time_since_epoch())
       .count();
