@@ -1,1 +1,1 @@
-This might be used to demonstrate a merge conflict.
+This might be used to emphasize a merge conflict.
